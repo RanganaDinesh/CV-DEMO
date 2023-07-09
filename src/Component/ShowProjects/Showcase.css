@@ -1,0 +1,53 @@
+.skill-container{
+    background-color: rgba(244, 240, 244, 0.94);
+    width: 100vw;
+    height: 100vh;
+
+}
+.skills-title{
+    font-family: system-ui;
+    font-size: 35px;
+    text-shadow: 0px 0px 5px rgb(116, 115, 115);
+    text-align: center;
+}
+.item-container{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+.item{
+    margin: 90px;
+    width: 250px ;
+    height: 200px;
+    background-color: white;
+}
+#cart-btn{
+
+ margin-left: 58px;
+   position: absolute; 
+ 
+  
+}
+.img-product{
+     width: 250px ;
+    height: 200px;
+
+}
+.img-product:hover{
+    opacity: 0.5;
+}
+@media screen and (max-width:800px){
+    .item{
+        margin: 60px 0px 20px 40px ;
+    }
+    .item-container{
+        padding: 20px;
+       
+    }
+    .skill-container{
+        height:1850px;
+        width: 100%;
+    }
+    
+}

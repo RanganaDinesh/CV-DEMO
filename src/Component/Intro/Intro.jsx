@@ -6,28 +6,25 @@ import TypeWriter from './Font'
 import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 
+const Home = () => {
+    const pdfUrl = 'https://github.com/RanganaDinesh/Blog-Project/raw/main/src/Pages/dineshcv.pdf';
+    
 
 const typeWriter = ["FRONT-END DEVELOPER","WEB DEVELOPER", "MERN STACK DEVELOPER", "REACTJS DEVELOPER"];
-const Home = () => {
-  const pdfUrl = 'https://github.com/RanganaDinesh/Blog-Project/raw/main/src/Pages/dineshcv.pdf';
 
  
     return (
-       <>
+       
         <div id='section-container'>
             
-            {/* left -section */}
-            
             <div className='container-text'>
-            {/* <Fade bottom> */}
+       
                 <div>
                 <span>WELCOME TO MY WORLD</span>
                 <h1>Hi,I’m Dinesh RANGANA  <br /> <TypeWriter data={typeWriter} /></h1>
 
                 <p className='content-p' >I have always been interested in web development, and I have the necessary skills required for the role. I have a good understanding of HTML, CSS, JavaScript, and REACT.JS. I am currently improving my mobile app development skills by learning various new technologies.</p>
                 </div>
-            {/* </Fade> */}
-                {/* <Fade bottom> */}
               <div>
                   <span>FIND WITH ME</span>
                         <div>
@@ -66,12 +63,10 @@ const Home = () => {
                       
                   </div>
                         </div>
-                        {/* </Fade> */}
-              
                 </div>
-                {/* right-section */}
+
                 <div>
-                {/* <Fade bottom> */}
+          
               <div className='frame'>
                         <img src={profile} alt="" className='profile-pic' /> <br />
                        
@@ -107,13 +102,13 @@ const Home = () => {
 ></a>
 
                         </div>
-                        {/* </Fade> */}
+                   
                 </div>
                
           
       
             </div>
-            </>        
+           
   )
 }
 
