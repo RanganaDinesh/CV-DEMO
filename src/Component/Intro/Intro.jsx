@@ -17,7 +17,7 @@ const Home = () => {
         <div id='section-container'>
             
             {/* left -section */}
-           
+            
             <div className='container-text'>
             {/* <Fade bottom> */}
                 <div>
